@@ -346,10 +346,3 @@ OpenClaw 的意义不在于它本身多么完美，而在于：
 它不是终点。是新范式的起点。
 
 真正的变革才刚刚开始。
-
----
-
-**延伸阅读**：
-- [Agent 发展简史](/appendix/agent-history) - 从 ELIZA 到 OpenClaw
-- [OpenClaw 架构解析](/chapters/chapter-02/openclaw-architecture) - 技术实现细节
-- [安全实践指南](/appendix/security) - 如何安全地使用 Agent

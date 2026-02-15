@@ -417,10 +417,3 @@ Agent 的价值不是让所有人用，是让需要它的人能用。
 | 自我创建集成 | @iamsubhrajyoti |
 | 完整生活集成 | @acevail_ |
 | 周末测试报告 | @M_haggis |
-
----
-
-**延伸阅读**：
-- [OpenClaw 架构解析](/chapters/chapter-02/openclaw-architecture) - 这些能力是怎么实现的
-- [Skills 开发指南](/chapters/chapter-03/skills-development) - 如何创建自己的 Skills
-- [安全实践](/appendix/security) - 给 Agent 权限前你需要知道的
