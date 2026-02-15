@@ -12,7 +12,16 @@ sidebar_position: 1
 
 在它之前，AI Agent 领域已经折腾了三年。
 
-### 2023-2024：概念验证期
+```mermaid
+timeline
+    title AI Agent 发展历程 (2023-2026)
+    2023 Q1 : AutoGPT 发布<br/>20万+ Stars
+            : BabyAGI 发布<br/>轻量化尝试
+    2024 全年 : 概念验证期<br/>生产环境无人敢用
+    2025 全年 : 企业级平台兴起<br/>云端托管为主
+              : 封闭 AI 助手泛滥<br/>场景受限
+    2026 Q1 : OpenClaw 发布<br/>48小时破纪录
+```
 
 **AutoGPT（2023年3月）** 掀起了第一波 Agent 热潮。它的想法很简单：让 AI 不只是回答问题，而是自己拆解任务、规划步骤、循环执行。
 
@@ -62,6 +71,29 @@ AutoGPT 和 BabyAGI 证明了方向，但没人能把它们变成真正可用的
 
 ### 2025：两条产品路线的分化
 
+```mermaid
+graph LR
+    A[Agent 市场分化] --> B[企业级平台]
+    A --> C[封闭 AI 助手]
+    A --> D[OpenClaw<br/>本地优先]
+    
+    B --> B1[☁️ 云端托管]
+    B --> B2[💰 按量计费]
+    B --> B3[🔒 数据外流]
+    
+    C --> C1[📱 开箱即用]
+    C --> C2[🎯 场景受限]
+    C --> C3[🤖 实际是聊天机器人]
+    
+    D --> D1[🏠 本地执行]
+    D --> D2[🔌 插件开放]
+    D --> D3[🛡️ 隐私可控]
+    
+    style D fill:#4CAF50,stroke:#2E7D32,color:#fff
+    style B fill:#FF9800,stroke:#E65100,color:#fff
+    style C fill:#9E9E9E,stroke:#616161,color:#fff
+```
+
 **路线1：企业级 Agent 平台**
 - 典型代表：OpenAI Operator、Microsoft Copilot Agents
 - 特点：云端托管、能力强大、按量计费
@@ -88,7 +120,32 @@ AutoGPT 和 BabyAGI 证明了方向，但没人能把它们变成真正可用的
 
 Peter Steinberger 一个人在一周内提交了 6,600 次 commits。
 
+```mermaid
+xychart-beta
+    title "OpenClaw GitHub Stars 增长 (2026年1月)"
+    x-axis ["发布", "6小时", "12小时", "24小时", "48小时", "1周"]
+    y-axis "Stars 数量" 0 --> 120000
+    line [0, 8000, 15000, 35000, 68000, 105000]
+```
+
+**48 小时内**，OpenClaw 获得了接近 7 万 Stars，打破了所有 Agent 项目的历史记录。这不是营销炒作，是真实需求被压抑三年的爆发。
+
 ### 决策1：微核+插件架构
+
+```mermaid
+graph TD
+    A[传统 Agent 产品] -->|所有功能官方开发| B[用户等待更新]
+    
+    C[OpenClaw 架构] --> D[微核<br/>极简核心]
+    D --> E[插件系统 Skills]
+    E --> F[网关<br/>连接云端与本地]
+    
+    F --> G[任何人可写 Skills]
+    G --> H[生态开放扩展]
+    
+    style C fill:#4CAF50,stroke:#2E7D32,color:#fff
+    style A fill:#9E9E9E,stroke:#616161,color:#fff
+```
 
 传统 Agent 产品的问题是：所有功能都由官方开发，用户只能等待。
 
@@ -117,6 +174,31 @@ OpenClaw 选了另一条路：
 这就是为什么 OpenClaw 发布后，48小时内就出现了各种第三方 Skills。能力扩展不再被垄断。
 
 ### 决策2：本地优先，云端大脑
+
+```mermaid
+graph LR
+    subgraph 传统云端方案
+        A1[☁️ 完全云端] --> A2[❌ 数据隐私问题]
+        A1 --> A3[❌ 无法访问本地]
+        A1 --> A4[❌ 持续付费]
+    end
+    
+    subgraph 完全本地方案
+        B1[💻 完全本地] --> B2[❌ 昂贵硬件]
+        B1 --> B3[❌ 模型受限]
+        B1 --> B4[❌ 难以更新]
+    end
+    
+    subgraph OpenClaw 混合方案
+        C1[🧠 云端智能] --> C2[按需调用]
+        C3[💪 本地执行] --> C4[完全可控]
+        C5[💾 本地记忆] --> C6[隐私保护]
+    end
+    
+    style C1 fill:#4CAF50,stroke:#2E7D32,color:#fff
+    style C3 fill:#4CAF50,stroke:#2E7D32,color:#fff
+    style C5 fill:#4CAF50,stroke:#2E7D32,color:#fff
+```
 
 OpenClaw 的架构是大脑在云端，肉身在本地：
 
@@ -185,6 +267,23 @@ Peter Steinberger 的 "I ship code I don't read" 听起来疯狂，但背后是 
 这不是炫耀。是 AI 时代开发模式的证明。
 
 ## OpenClaw 带来了什么变革
+
+```mermaid
+mindmap
+  root((OpenClaw<br/>变革))
+    个人用户
+      写提示词 → 装 Skills
+      自主买车省 $3000
+      30分钟迁移 10万行代码
+      40小时深度调研
+    开发者
+      对抗框架 → 贡献插件
+      只写业务逻辑
+      ClawHub 分享获益
+    硬件厂商
+      Mac Mini 被抢购
+      AI 基础设施新需求
+```
 
 ### 对个人用户
 
