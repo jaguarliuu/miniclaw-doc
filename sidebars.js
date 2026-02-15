@@ -17,7 +17,7 @@ const sidebars = {
         id: 'chapters/chapter-01/index',
       },
       items: [
-        'chapters/chapter-01/01-openclaw-phenomenon',
+        'chapters/chapter-01/openclaw-phenomenon',
       ],
     },
     {
