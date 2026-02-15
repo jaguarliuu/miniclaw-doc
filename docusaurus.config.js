@@ -6,11 +6,11 @@ const config = {
   tagline: 'AI Agent 实战课程',
   favicon: 'img/favicon.ico',
 
-  url: 'https://docs.miniclaw.dev',
-  baseUrl: '/',
+  url: 'https://jaguarliuu.github.io',
+  baseUrl: '/miniclaw-doc/',
 
   organizationName: 'jaguarliuu',
-  projectName: 'miniclaw-docs',
+  projectName: 'miniclaw-doc',
 
   onBrokenLinks: 'warn',
 
