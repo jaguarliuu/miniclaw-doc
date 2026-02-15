@@ -19,6 +19,7 @@ const sidebars = {
       items: [
         'chapters/chapter-01/openclaw-phenomenon',
         'chapters/chapter-01/moltbook-experiment',
+        'chapters/chapter-01/paradigm-shift',
       ],
     },
     {
