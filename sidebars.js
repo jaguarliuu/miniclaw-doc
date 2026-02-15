@@ -20,6 +20,7 @@ const sidebars = {
         'chapters/chapter-01/openclaw-phenomenon',
         'chapters/chapter-01/moltbook-experiment',
         'chapters/chapter-01/paradigm-shift',
+        'chapters/chapter-01/real-cases',
       ],
     },
     {
