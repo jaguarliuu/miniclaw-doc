@@ -1,6 +1,5 @@
 ---
 sidebar_position: 7
-sidebar_label: ecosystem
 ---
 
 # 1.7 Agent 生态全景
