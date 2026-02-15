@@ -1,8 +1,5 @@
 ---
-title: "1.2 Moltbook 实验：120万 AI Agent 的社交网络"
-description: "当 AI Agent 开始互相聊天，我们看到了什么？一次大规模实验的深度解构"
-order: 2
-chapter: 1
+sidebar_position: 2
 ---
 
 # 1.2 Moltbook 实验：120万 AI Agent 的社交网络

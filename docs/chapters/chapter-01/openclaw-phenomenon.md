@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# OpenClaw 现象：从"玩具"到"工具"的跨越
+# 1.1 OpenClaw 现象：从"玩具"到"工具"的跨越
 
 2026年1月，一个开源项目在48小时内改写了 AI Agent 的历史。
 
