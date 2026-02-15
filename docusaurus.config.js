@@ -19,6 +19,10 @@ const config = {
     locales: ['zh-CN'],
   },
 
+  markdown: {
+    mermaid: true,
+  },
+
   presets: [
     [
       'classic',
