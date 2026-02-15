@@ -1,0 +1,166 @@
+/* 渐变动画 */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradientMoveDark {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.heroBanner {
+  padding: 8rem 2rem;
+  text-align: center;
+  border-bottom: 1px solid #eaeaea;
+  position: relative;
+  overflow: hidden;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* 极淡渐变 */
+  background: linear-gradient(
+    -45deg,
+    #ffffff 0%,
+    #fafafa 25%,
+    #f5f5f5 50%,
+    #fafafa 75%,
+    #ffffff 100%
+  );
+  background-size: 400% 400%;
+  animation: gradientMove 15s ease infinite;
+}
+
+[data-theme='dark'] .heroBanner {
+  border-bottom-color: #222;
+  background: linear-gradient(
+    -45deg,
+    #000000 0%,
+    #050505 25%,
+    #0a0a0a 50%,
+    #050505 75%,
+    #000000 100%
+  );
+  background-size: 400% 400%;
+  animation: gradientMoveDark 15s ease infinite;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+}
+
+.heroTitle {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.heroTagline {
+  font-size: 1.5rem;
+  color: #000;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+[data-theme='dark'] .heroTagline {
+  color: #fff;
+}
+
+.heroSubtitle {
+  font-size: 1.125rem;
+  color: #666;
+  margin-bottom: 2.5rem;
+}
+
+[data-theme='dark'] .heroSubtitle {
+  color: #999;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.875rem 2rem;
+  background: #000;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.15s ease;
+  border: none;
+}
+
+.button:hover {
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+[data-theme='dark'] .button {
+  background: #fff;
+  color: #000;
+}
+
+[data-theme='dark'] .button:hover {
+  background: #e0e0e0;
+  color: #000;
+}
+
+.main {
+  padding: 4rem 0;
+}
+
+.section {
+  padding: 0 2rem;
+}
+
+.section h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.section p {
+  color: #666;
+  line-height: 1.6;
+}
+
+[data-theme='dark'] .section p {
+  color: #999;
+}
+
+@media screen and (max-width: 996px) {
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+
+  .heroTagline {
+    font-size: 1.25rem;
+  }
+
+  .heroBanner {
+    padding: 4rem 1.5rem;
+    min-height: 50vh;
+  }
+}
