@@ -23,6 +23,7 @@ const sidebars = {
         'chapters/chapter-01/real-cases',
         'chapters/chapter-01/multi-agent',
         'chapters/chapter-01/history',
+        'chapters/chapter-01/ecosystem',
       ],
     },
     {
