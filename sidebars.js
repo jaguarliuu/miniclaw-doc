@@ -24,6 +24,7 @@ const sidebars = {
         'chapters/chapter-01/multi-agent',
         'chapters/chapter-01/history',
         'chapters/chapter-01/ecosystem',
+        'chapters/chapter-01/why-build',
       ],
     },
     {
