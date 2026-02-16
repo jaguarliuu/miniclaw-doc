@@ -39,6 +39,7 @@ const sidebars = {
       },
       items: [
         'chapters/chapter-03/3.1-env-setup',
+        'chapters/chapter-03/3.2-docker-compose',
       ],
     },
     {
