@@ -30,6 +30,19 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: '第三章 开发环境与基础底座',
+      collapsible: true,
+      collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'chapters/chapter-03/index',
+      },
+      items: [
+        'chapters/chapter-03/3.1-env-setup',
+      ],
+    },
+    {
+      type: 'category',
       label: '附录',
       collapsible: true,
       collapsed: true,
