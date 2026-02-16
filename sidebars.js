@@ -42,6 +42,7 @@ const sidebars = {
         'chapters/chapter-03/3.2-docker-compose',
         'chapters/chapter-03/3.3-flyway',
         'chapters/chapter-03/3.4-project-skeleton',
+        'chapters/chapter-03/3.5-config-management',
       ],
     },
     {
