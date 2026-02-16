@@ -7,7 +7,7 @@
 本章将完成以下工作：
 
 - **3.1 开发环境准备** - 安装 JDK 21、Maven，创建 Spring Boot 项目 ✅
-- **3.2 Docker Compose 编排** - 配置 PostgreSQL + pgvector 数据库
+- **3.2 Docker Compose 编排** - 配置 PostgreSQL + pgvector 数据库 ✅
 - **3.3 Flyway 数据库迁移** - 设计 Session/Run/Message 数据表
 - **3.4 项目骨架** - 完善分层架构
 - **3.5 配置管理** - 多环境配置
