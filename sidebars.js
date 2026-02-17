@@ -32,7 +32,7 @@ const sidebars = {
       type: 'category',
       label: '第三章 开发环境与基础底座',
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
       link: {
         type: 'doc',
         id: 'chapters/chapter-03/index',
@@ -43,6 +43,19 @@ const sidebars = {
         'chapters/chapter-03/3.3-flyway',
         'chapters/chapter-03/3.4-project-skeleton',
         'chapters/chapter-03/3.5-config-management',
+      ],
+    },
+    {
+      type: 'category',
+      label: '第四章 LLM 对接与流式输出',
+      collapsible: true,
+      collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'chapters/chapter-04/index',
+      },
+      items: [
+        'chapters/chapter-04/4.1-why-not-spring-ai',
       ],
     },
     {
