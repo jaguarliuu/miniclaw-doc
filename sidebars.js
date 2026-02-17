@@ -58,6 +58,7 @@ const sidebars = {
         'chapters/chapter-04/4.1-why-not-spring-ai',
         'chapters/chapter-04/4.2-openai-compatible-client',
         'chapters/chapter-04/4.3-sync-implementation',
+        'chapters/chapter-04/4.4-sse-streaming',
       ],
     },
     {
