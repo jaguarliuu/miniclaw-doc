@@ -60,6 +60,7 @@ const sidebars = {
         'chapters/chapter-04/4.3-sync-implementation',
         'chapters/chapter-04/4.4-sse-streaming',
         'chapters/chapter-04/4.5-error-handling',
+        'chapters/chapter-04/4.6-multi-provider',
       ],
     },
     {
