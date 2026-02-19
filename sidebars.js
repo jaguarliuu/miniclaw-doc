@@ -65,6 +65,19 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: '第五章 WebSocket 实时通信与 RPC 架构',
+      collapsible: true,
+      collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'chapters/chapter-05/index',
+      },
+      items: [
+        'chapters/chapter-05/5.0-introduction',
+      ],
+    },
+    {
+      type: 'category',
       label: '附录',
       collapsible: true,
       collapsed: true,
